@@ -83,3 +83,64 @@ default:
     fmt.Println("Good evening!")
 }
 ```
+
+### Loops 
+
+```
+// Traditional C-style for loop
+for i := 0; i < 5; i++ {
+    fmt.Println(i)
+}
+
+// Go's version of while loop
+count := 0
+for count < 5 {
+    fmt.Println(count)
+    count++
+}
+
+// Infinite loop (with break)
+for {
+    fmt.Println("Infinite loop")
+    // Use break to exit
+    break
+}
+
+
+// Iterating over slices
+fruits := []string{"apple", "banana", "orange"}
+for index, value := range fruits {
+    fmt.Printf("Index: %d, Value: %s\n", index, value)
+}
+
+// Iterating over maps
+scores := map[string]int{"Alice": 95, "Bob": 89}
+for key, value := range scores {
+    fmt.Printf("%s scored %d\n", key, value)
+}
+
+
+// Using continue to skip iterations
+for i := 0; i < 5; i++ {
+    if i == 2 {
+        continue // Skip iteration when i is 2
+    }
+    fmt.Println(i)
+}
+
+// Using break to exit loop
+for i := 0; i < 5; i++ {
+    if i == 3 {
+        break // Exit loop when i is 3
+    }
+    fmt.Println(i)
+}
+```
+
+### Best Practices
+
+Always handle I/O errors appropriately.
+Use the initialization statement in if conditions when the variable is only needed in that scope.
+Prefer switch statements over long if-else chains for better readability.
+Use range when iterating over collections for cleaner code.
+Consider using labeled break and continue statements in nested loops when necessary.

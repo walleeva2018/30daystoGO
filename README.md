@@ -11,5 +11,10 @@ Each day will have separate folder and readME. Here it will be like index. For a
 
 
 
+## Day 2
+### Let's solve a leet code problem with GO 
+
+## Day 3
+### Make a web server part 1 ( server  , go templating , routes)
 
 
