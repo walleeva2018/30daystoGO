@@ -15,6 +15,8 @@ Each day will have separate folder and readME. Here it will be like index. For a
 ### Let's solve a leet code problem with GO 
 
 ## Day 3
-### Make a web server part 1 ( server  , go templating , routes)
+### Make a web server part 1 ( server , go templating , routes)
 
 
+## Day 4
+### Make a CRUD operation using postman and Book API server 
